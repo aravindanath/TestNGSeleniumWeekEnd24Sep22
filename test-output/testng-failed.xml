@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/Users/aravindanathdm/Downloads/TestNgSelenium/src/test/java/day1/TC_Search_001.java(failed)">
+    <classes>
+      <class name="day1.TC_Search_001">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_Search_001"/>
+        </methods>
+      </class> <!-- day1.TC_Search_001 -->
+    </classes>
+  </test> <!-- /Users/aravindanathdm/Downloads/TestNgSelenium/src/test/java/day1/TC_Search_001.java(failed) -->
+  <test thread-count="5" name="/Users/aravindanathdm/Downloads/TestNgSelenium/src/test/java/day1/TC_Search_002.java(failed)">
+    <classes>
+      <class name="day1.TC_Search_002">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_Search_001"/>
+        </methods>
+      </class> <!-- day1.TC_Search_002 -->
+    </classes>
+  </test> <!-- /Users/aravindanathdm/Downloads/TestNgSelenium/src/test/java/day1/TC_Search_002.java(failed) -->
+  <test thread-count="5" name="/Users/aravindanathdm/Downloads/TestNgSelenium/src/test/java/day1/TC_Search_003.java(failed)">
+    <classes>
+      <class name="day1.TC_Search_003">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_Search_001"/>
+        </methods>
+      </class> <!-- day1.TC_Search_003 -->
+    </classes>
+  </test> <!-- /Users/aravindanathdm/Downloads/TestNgSelenium/src/test/java/day1/TC_Search_003.java(failed) -->
+  <test thread-count="5" name="/Users/aravindanathdm/Downloads/TestNgSelenium/src/test/java/day1/TC_Search_004.java(failed)">
+    <classes>
+      <class name="day1.TC_Search_004">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_Search_001"/>
+        </methods>
+      </class> <!-- day1.TC_Search_004 -->
+    </classes>
+  </test> <!-- /Users/aravindanathdm/Downloads/TestNgSelenium/src/test/java/day1/TC_Search_004.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

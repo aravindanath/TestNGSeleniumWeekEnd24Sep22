@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Page Current URL: https://www.google.com/search?q=Appium+jobs&source=hp&ei=OucuY93HCsXvz7sPk-6boAI&iflsig=AJiK0e8AAAAAYy71SgVqUlzPA9y1JPkxfve_5FD6PNxm&ved=0ahUKEwjdzP39pq36AhXF93MBHRP3BiQQ4dUDCAc&uact=5&oq=Appium+jobs&gs_lcp=Cgdnd3Mtd2l6EANQAFgIYAloAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Appium jobs - Google Search]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Amazon.in : todays deal]]>
+    </line>
+    <line>
+      <![CDATA[Page Current URL: https://www.amazon.in/s?k=todays+deal&ref=nb_sb_noss]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Selenium Appium jobs - Google Search]]>
+    </line>
+    <line>
+      <![CDATA[Page Current URL: https://www.google.com/search?q=Selenium+Appium+jobs&source=hp&ei=OucuY5CSKIXDz7sPyqSwyAg&iflsig=AJiK0e8AAAAAYy71StIVabFn4jJ-Id32lZgIpooPz08V&ved=0ahUKEwiQl5v-pq36AhWF4XMBHUoSDIkQ4dUDCAc&uact=5&oq=Selenium+Appium+jobs&gs_lcp=Cgdnd3Mtd2l6EANQAFgRYBNoAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Amazon.in : iphone 14 max pro]]>
+    </line>
+    <line>
+      <![CDATA[Page Current URL: https://www.amazon.in/s?k=iphone+14+max+pro&ref=nb_sb_noss]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Amazon.in : todays deal]]>
+    </line>
+    <line>
+      <![CDATA[Page Current URL: https://www.amazon.in/s?k=todays+deal&ref=nb_sb_noss]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Selenium Appium jobs - Google Search]]>
+    </line>
+    <line>
+      <![CDATA[Page Current URL: https://www.google.com/search?q=Selenium+Appium+jobs&source=hp&ei=T-cuY46sIre7z7sPu7SiqA4&iflsig=AJiK0e8AAAAAYy71X5nQf2Vwkkpt4oxpLecmzMKGwTSX&ved=0ahUKEwjOj5eIp636AhW33XMBHTuaCOUQ4dUDCAY&uact=5&oq=Selenium+Appium+jobs&gs_lcp=Cgdnd3Mtd2l6EANQAFgZYB1oAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz]]>
+    </line>
+    <line>
+      <![CDATA[Page Current URL: https://www.google.com/search?q=Appium+jobs&source=hp&ei=T-cuY5mQHp6kz7sP2ri7uAU&iflsig=AJiK0e8AAAAAYy71Xz5weNOuUoyzPahbfDZSdyY8HGUP&ved=0ahUKEwjZ85KIp636AhUe0nMBHVrcDlcQ4dUDCAY&uact=5&oq=Appium+jobs&gs_lcp=Cgdnd3Mtd2l6EANQAFgPYBJoAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Appium jobs - Google Search]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Amazon.in : iphone 14 max pro]]>
+    </line>
+    <line>
+      <![CDATA[Page Current URL: https://www.amazon.in/s?k=iphone+14+max+pro&ref=nb_sb_noss]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-24T16:47:11 IST" name="All Test Suite" finished-at="2022-09-24T16:47:43 IST" duration-ms="32554">
+    <groups>
+    </groups>
+    <test started-at="2022-09-24T16:47:11 IST" name="Automation Suite on chrome" finished-at="2022-09-24T16:47:25 IST" duration-ms="14183">
+      <class name="day1.TC_Search_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day1.TC_Search_004@2cdd0d4b]" started-at="2022-09-24T16:47:11 IST" name="setup" finished-at="2022-09-24T16:47:13 IST" duration-ms="2561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Search_001()[pri:0, instance:day1.TC_Search_004@2cdd0d4b]" started-at="2022-09-24T16:47:13 IST" name="TC_Search_001" finished-at="2022-09-24T16:47:23 IST" duration-ms="9393" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Current URL: https://www.google.com/search?q=Appium+jobs&source=hp&ei=OucuY93HCsXvz7sPk-6boAI&iflsig=AJiK0e8AAAAAYy71SgVqUlzPA9y1JPkxfve_5FD6PNxm&ved=0ahUKEwjdzP39pq36AhXF93MBHRP3BiQQ4dUDCAc&uact=5&oq=Appium+jobs&gs_lcp=Cgdnd3Mtd2l6EANQAFgIYAloAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz]]>
+            </line>
+            <line>
+              <![CDATA[Page Title: Appium jobs - Google Search]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Search_001 -->
+      </class> <!-- day1.TC_Search_004 -->
+      <class name="day1.TC_Search_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day1.TC_Search_001@46fa7c39]" started-at="2022-09-24T16:47:11 IST" name="setup" finished-at="2022-09-24T16:47:13 IST" duration-ms="2721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Search_001()[pri:0, instance:day1.TC_Search_001@46fa7c39]" started-at="2022-09-24T16:47:13 IST" name="TC_Search_001" finished-at="2022-09-24T16:47:23 IST" duration-ms="9947" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Title: Selenium Appium jobs - Google Search]]>
+            </line>
+            <line>
+              <![CDATA[Page Current URL: https://www.google.com/search?q=Selenium+Appium+jobs&source=hp&ei=OucuY5CSKIXDz7sPyqSwyAg&iflsig=AJiK0e8AAAAAYy71StIVabFn4jJ-Id32lZgIpooPz08V&ved=0ahUKEwiQl5v-pq36AhWF4XMBHUoSDIkQ4dUDCAc&uact=5&oq=Selenium+Appium+jobs&gs_lcp=Cgdnd3Mtd2l6EANQAFgRYBNoAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Search_001 -->
+      </class> <!-- day1.TC_Search_001 -->
+      <class name="day1.TC_Search_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day1.TC_Search_002@6c779568]" started-at="2022-09-24T16:47:11 IST" name="setup" finished-at="2022-09-24T16:47:13 IST" duration-ms="2612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Search_001()[pri:0, instance:day1.TC_Search_002@6c779568]" started-at="2022-09-24T16:47:13 IST" name="TC_Search_001" finished-at="2022-09-24T16:47:23 IST" duration-ms="9693" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Title: Amazon.in : todays deal]]>
+            </line>
+            <line>
+              <![CDATA[Page Current URL: https://www.amazon.in/s?k=todays+deal&ref=nb_sb_noss]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Search_001 -->
+      </class> <!-- day1.TC_Search_002 -->
+      <class name="day1.TC_Search_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day1.TC_Search_003@f381794]" started-at="2022-09-24T16:47:11 IST" name="setup" finished-at="2022-09-24T16:47:13 IST" duration-ms="2721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Search_001()[pri:0, instance:day1.TC_Search_003@f381794]" started-at="2022-09-24T16:47:13 IST" name="TC_Search_001" finished-at="2022-09-24T16:47:25 IST" duration-ms="11440" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Title: Amazon.in : iphone 14 max pro]]>
+            </line>
+            <line>
+              <![CDATA[Page Current URL: https://www.amazon.in/s?k=iphone+14+max+pro&ref=nb_sb_noss]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Search_001 -->
+      </class> <!-- day1.TC_Search_003 -->
+    </test> <!-- Automation Suite on chrome -->
+    <test started-at="2022-09-24T16:47:25 IST" name="Automation Suite firefox" finished-at="2022-09-24T16:47:43 IST" duration-ms="18358">
+      <class name="day1.TC_Search_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day1.TC_Search_004@55536d9e]" started-at="2022-09-24T16:47:25 IST" name="setup" finished-at="2022-09-24T16:47:35 IST" duration-ms="9765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Search_001()[pri:0, instance:day1.TC_Search_004@55536d9e]" started-at="2022-09-24T16:47:35 IST" name="TC_Search_001" finished-at="2022-09-24T16:47:42 IST" duration-ms="7787" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Current URL: https://www.google.com/search?q=Appium+jobs&source=hp&ei=T-cuY5mQHp6kz7sP2ri7uAU&iflsig=AJiK0e8AAAAAYy71Xz5weNOuUoyzPahbfDZSdyY8HGUP&ved=0ahUKEwjZ85KIp636AhUe0nMBHVrcDlcQ4dUDCAY&uact=5&oq=Appium+jobs&gs_lcp=Cgdnd3Mtd2l6EANQAFgPYBJoAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz]]>
+            </line>
+            <line>
+              <![CDATA[Page Title: Appium jobs - Google Search]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Search_001 -->
+      </class> <!-- day1.TC_Search_004 -->
+      <class name="day1.TC_Search_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day1.TC_Search_001@59af0466]" started-at="2022-09-24T16:47:25 IST" name="setup" finished-at="2022-09-24T16:47:35 IST" duration-ms="9801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Search_001()[pri:0, instance:day1.TC_Search_001@59af0466]" started-at="2022-09-24T16:47:35 IST" name="TC_Search_001" finished-at="2022-09-24T16:47:42 IST" duration-ms="7458" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Title: Selenium Appium jobs - Google Search]]>
+            </line>
+            <line>
+              <![CDATA[Page Current URL: https://www.google.com/search?q=Selenium+Appium+jobs&source=hp&ei=T-cuY46sIre7z7sPu7SiqA4&iflsig=AJiK0e8AAAAAYy71X5nQf2Vwkkpt4oxpLecmzMKGwTSX&ved=0ahUKEwjOj5eIp636AhW33XMBHTuaCOUQ4dUDCAY&uact=5&oq=Selenium+Appium+jobs&gs_lcp=Cgdnd3Mtd2l6EANQAFgZYB1oAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Search_001 -->
+      </class> <!-- day1.TC_Search_001 -->
+      <class name="day1.TC_Search_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day1.TC_Search_002@3e6ef8ad]" started-at="2022-09-24T16:47:25 IST" name="setup" finished-at="2022-09-24T16:47:35 IST" duration-ms="9836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Search_001()[pri:0, instance:day1.TC_Search_002@3e6ef8ad]" started-at="2022-09-24T16:47:35 IST" name="TC_Search_001" finished-at="2022-09-24T16:47:42 IST" duration-ms="6947" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Title: Amazon.in : todays deal]]>
+            </line>
+            <line>
+              <![CDATA[Page Current URL: https://www.amazon.in/s?k=todays+deal&ref=nb_sb_noss]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Search_001 -->
+      </class> <!-- day1.TC_Search_002 -->
+      <class name="day1.TC_Search_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day1.TC_Search_003@346d61be]" started-at="2022-09-24T16:47:25 IST" name="setup" finished-at="2022-09-24T16:47:35 IST" duration-ms="9765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Search_001()[pri:0, instance:day1.TC_Search_003@346d61be]" started-at="2022-09-24T16:47:35 IST" name="TC_Search_001" finished-at="2022-09-24T16:47:43 IST" duration-ms="8590" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Title: Amazon.in : iphone 14 max pro]]>
+            </line>
+            <line>
+              <![CDATA[Page Current URL: https://www.amazon.in/s?k=iphone+14+max+pro&ref=nb_sb_noss]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Search_001 -->
+      </class> <!-- day1.TC_Search_003 -->
+    </test> <!-- Automation Suite firefox -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes">
+
+    <test verbose="2" preserve-order="true"
+          name="Automation Suite on chrome" parallel="classes">
+        <parameter name="browser" value="chrome">
+        <classes>
+            <class name="day1.TC_Search_001"/>
+            <class name="day1.TC_Search_002"/>
+            <class name="day1.TC_Search_003"/>
+            <class name="day1.TC_Search_004"/>
+        </classes>
+        </parameter>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="Automation Suite firefox" parallel="classes">
+        <parameter name="browser" value="firefox">
+            <classes>
+                <class name="day1.TC_Search_001"/>
+                <class name="day1.TC_Search_002"/>
+                <class name="day1.TC_Search_003"/>
+                <class name="day1.TC_Search_004"/>
+            </classes>
+        </parameter>
+    </test>
+</suite>
