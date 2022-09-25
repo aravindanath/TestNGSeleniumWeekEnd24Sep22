@@ -2,11 +2,12 @@ package day1;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 public class Basedev {
-    WebDriver driver = null;
+ public     WebDriver driver = null;
 
     String browser = "chrome";
     @BeforeClass
@@ -19,6 +20,11 @@ public class Basedev {
         }
           driver.manage().window().maximize();
 
+    }
+
+    @AfterClass
+    public void tearDown() throws InterruptedException {
+        Thread.sleep(4000);
     }
 
 
