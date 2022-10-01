@@ -1,11 +1,24 @@
 
-id
-name
-linktext
-partial linktext
+id -- done
+name -- done
+linktext -- done
+partial linktext -- done
 
-tagname
-classname
+tagname -- done
+classname -- done
 xpath -->
-css
+css -->
+/html/body/div/div[3]/form/div/div/div/div/div[2]/input
+//input[@name='q']
+/tagname/tagname/tagname/tagname --> Absloute
+//tagname[@attribute='value'] --> relative
+//tagname[@attribute='value' or @attribute='value']
+//input[@class='gLFyf gsfi' or @name='q' or @type='text']
+//tagname[@attribute='value' and @attribute='value']
+//tagname[contains(@attribute, 'value')]
+//tagname[starts-with(@attribute, 'value')]
+//tagname[text()='value']
+//following
+(//table[@class='mctable1'])[3]/tbody/tr/td/p/a[contains(text(),'GOLD')]//following::td[1]
+//Preceeding-sibling
 
