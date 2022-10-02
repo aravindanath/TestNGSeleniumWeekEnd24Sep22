@@ -7,7 +7,7 @@ partial linktext -- done
 tagname -- done
 classname -- done
 xpath -->
-css -->
+css --> *,^,$,.,#
 /html/body/div/div[3]/form/div/div/div/div/div[2]/input
 //input[@name='q']
 /tagname/tagname/tagname/tagname --> Absloute

@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class TC_Search_001 extends BaseClass {
+public class TC_Search_001 extends Basedev {
 
     @Test
     public void TC_Search_001() throws InterruptedException {

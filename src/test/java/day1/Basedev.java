@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 public class Basedev {
@@ -17,6 +18,8 @@ public class Basedev {
             driver = WebDriverManager.chromedriver().create();
         }else if(browser.equalsIgnoreCase("firefox")) {
             driver = WebDriverManager.firefoxdriver().create();
+        }else if(browser.equalsIgnoreCase("edge")){
+            driver = WebDriverManager.edgedriver().create();
         }
           driver.manage().window().maximize();
 
