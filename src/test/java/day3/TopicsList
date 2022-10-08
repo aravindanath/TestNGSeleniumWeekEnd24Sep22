@@ -5,25 +5,28 @@ backward--> done
 get--> done
 navigate--> done
 
-close
-quite
+
+
+alerts --> done
+window handling --> done
+close --> done
+quite --> done
+mouse actions --> done
+dropdown --> done
+autosuggestion --> done
+
+frames
+radio button
 isSelected
 isDisplyed
 isEnabled
-alerts
-window handling
-frames
-mouse actions
-dropdown
-autosuggestion
-radio button
 checkbox
 dynamic links
 scrolling
 taking screenshot
 waits
 flex elements
-calenders
+calenders --> done
 multi selelct
 
 browser stack integration
