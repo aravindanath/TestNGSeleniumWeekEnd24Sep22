@@ -4,9 +4,6 @@ forward--> done
 backward--> done
 get--> done
 navigate--> done
-
-
-
 alerts --> done
 window handling --> done
 close --> done
@@ -14,19 +11,21 @@ quite --> done
 mouse actions --> done
 dropdown --> done
 autosuggestion --> done
-
-frames
-radio button
-isSelected
-isDisplyed
-isEnabled
-checkbox
-dynamic links
-scrolling
-taking screenshot
-waits
-flex elements
 calenders --> done
+
+frames --> done
+radio button --> done
+isSelected --> done
+isDisplyed --> done
+isEnabled   --> done
+checkbox   --> done
+dynamic links --> done
+
+
+scrolling --> done
+taking screenshot --> done
+
+waits
 multi selelct
 
 browser stack integration

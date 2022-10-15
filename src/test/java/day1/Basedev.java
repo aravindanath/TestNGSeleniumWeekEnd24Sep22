@@ -27,7 +27,7 @@ public class Basedev {
 
     @AfterClass
     public void tearDown() throws InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(5000);
     }
 
 

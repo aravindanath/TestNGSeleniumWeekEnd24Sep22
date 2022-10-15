@@ -1,10 +1,13 @@
 package day3;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+
+import java.io.File;
+import java.io.IOException;
 
 public class Generics {
 
@@ -64,4 +67,24 @@ public class Generics {
         Actions act = new Actions(driver);
         act.moveToElement(element).perform();
     }
+
+
+    public static void verfityTitle(WebElement element, String title){
+        String actual = element.getText();
+        System.out.println(actual);
+        Assert.assertEquals(actual,title,"Title not match");
+    }
+
+    public static void scrollToElement(WebDriver driver, WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].scrollIntoView();",element);
+    }
+
+    public static void takeScreenshot(WebDriver driver) throws IOException {
+        TakesScreenshot scrShot = (TakesScreenshot)driver;
+        File SrcFile= scrShot.getScreenshotAs(OutputType.FILE);
+        File DestFile=new File("./screen.png");
+        FileUtils.copyFile(SrcFile,DestFile);
+    }
+
 }
