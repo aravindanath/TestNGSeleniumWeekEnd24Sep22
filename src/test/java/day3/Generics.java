@@ -1,5 +1,6 @@
 package day3;
 
+import com.github.javafaker.Faker;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -8,6 +9,9 @@ import org.testng.Assert;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 public class Generics {
 
@@ -87,4 +91,44 @@ public class Generics {
         FileUtils.copyFile(SrcFile,DestFile);
     }
 
+
+    public static String city(){
+        Faker faker = new Faker(new Locale("en-IND"));
+        String city = faker.address().city();
+        return city;
+    }
+
+
+    public static String email(){
+        Faker faker = new Faker(new Locale("en-IND"));
+        String fn = faker.name().firstName();
+        return fn+"@gmail.com";
+    }
+
+    public static String firstName(){
+        Faker faker = new Faker(new Locale("en-IND"));
+        String fn = faker.name().firstName();
+        return fn;
+    }
+
+    public static String lastName(){
+        Faker faker = new Faker(new Locale("en-IND"));
+        String ln = faker.name().lastName();
+        return ln;
+    }
+
+    public static String mobileNumber(){
+        Faker faker = new Faker(new Locale("en-IND"));
+        String ln = faker.number().digits(10);
+        return ln;
+    }
+
+    public static String currentDtTime(){
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+        LocalDateTime now = LocalDateTime.now();
+        String dt =  dtf.format(now)
+                .replace("/","_")
+                .replace(" ","_").replace(":","_");
+        return dt;
+    }
 }

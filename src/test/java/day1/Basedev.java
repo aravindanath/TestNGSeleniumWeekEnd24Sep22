@@ -7,6 +7,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import java.util.concurrent.TimeUnit;
+
 public class Basedev {
  public     WebDriver driver = null;
 
@@ -22,7 +24,7 @@ public class Basedev {
             driver = WebDriverManager.edgedriver().create();
         }
           driver.manage().window().maximize();
-
+          driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @AfterClass
