@@ -39,5 +39,6 @@ public class ComparePrice extends Basedev {
         String CorrectPrice1 = fphoneprice.replace("₹","");
         String CorrectPrice2 = CorrectPrice1.replace(",","");
         System.out.println("flipkar Price "+ CorrectPrice2 );
+
     }
 }
